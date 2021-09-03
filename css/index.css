@@ -51,7 +51,6 @@ table {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /* border: 1px solid grey; */
 }
 
 html, body {
@@ -91,39 +90,46 @@ a {
 /* Top Section Image */
 .topimg {
     background-image: url(/img/jumbo.jpg);
-    height: 20vh;
+    height: 25vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    margin: 3% 15%;
+    margin: 1% 15%;
 }
 
 
 
 
 .container {
-    width: 800px;
+    width: 65%;
     margin: 0 auto;
 }
 
+
+/* Top Content styles */
 .top-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed black;
+}
+
+.text-container h2 {
+    font-size: 1.5rem;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 45%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+
+/* Middle Content Styles */
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed black;
 }
 
 .middle-content h2 {
@@ -148,6 +154,48 @@ a {
     justify-content: center;
 }
 
+.middle-content .boxes .one {
+    background-color: #008080;
+}
+
+.middle-content .boxes .two {
+    background-color: #ffd700;
+}
+
+.middle-content .boxes .three {
+    background-color: #5f9ea0;
+}
+
+.middle-content .boxes .four {
+    background-color: #ff7f50;
+}
+
+.middle-content .boxes .five {
+    background-color: #dc143c;
+}
+
+.middle-content .boxes .six {
+    background-color: #228b22;
+}
+
+.middle-content .boxes .seven {
+    background-color: #9932cc;
+}
+
+.middle-content .boxes .eight {
+    background-color: #ff69b4;
+}
+
+.middle-content .boxes .nine {
+    background-color: #4b0082;
+}
+
+.middle-content .boxes .ten {
+    background-color: #1e90ff;
+}
+
+
+/* Bottom Content Styles */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -156,12 +204,15 @@ a {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    width: 25%;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
 
+
+/* Footer Section Styles */
 footer {
     width: 100%;
     background: black;
