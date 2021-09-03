@@ -51,6 +51,7 @@ table {
     margin: 0;
     padding: 0;
     max-width: 100%;
+    /* border: 1px solid gray; */
 }
 
 html, body {
@@ -86,139 +87,98 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.0rem;
+}
+
 
 /* Top Section Image */
 .topimg {
-    background-image: url(/img/jumbo.jpg);
-    height: 25vh;
+    background-image: url(/img/jumbo-about.png);
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    margin: 1% 15%;
+    margin: 1% 10%;
 }
 
-
-
-
-.container {
-    width: 65%;
-    margin: 0 auto;
-}
-
+/* Top About Content */
 .aboutcontent {
+    margin-left: 15%;
+    margin-bottom: 1%;
+    border-bottom: 2px dashed black;
     width: 65%;
 }
+
+.aboutcontent p {
+    margin-bottom: 2%;
+}
+
 
 
 /* Top Content styles */
-.top-content {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    border-bottom: 2px dashed black;
+
+
+
+
+.about-page section {
+    border-bottom: 1px dashed black;
+    margin-bottom: 2%;
+    width: 100%;
 }
 
 .text-container h2 {
     font-size: 1.5rem;
 }
 
-.top-content .text-container {
-    width: 45%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
 
-
-/* Middle Content Styles */
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 2px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+/* Middle Content Gallery Styles */
+.container {
+    width: 50%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+.container div {
+    width: 45%;
+    margin: 2% 0;
+    border-bottom: 1px dashed black;
+}
+
+.container p {
+    width: 70%;
+}
+
+.container button{
+    margin-bottom: 12%;
+    width: 45%;
+    display:inline-block;
+    height: 8%;
+    border: 2px solid black;
+    border-radius: 2%;
+
+}
+
+.bottom {
     display: flex;
-    align-items: center;
+    width: 100%;
     justify-content: center;
+    margin-bottom: 2%;
 }
 
-.middle-content .boxes .one {
-    background-color: #008080;
-}
-
-.middle-content .boxes .two {
-    background-color: #ffd700;
-}
-
-.middle-content .boxes .three {
-    background-color: #5f9ea0;
-}
-
-.middle-content .boxes .four {
-    background-color: #ff7f50;
-}
-
-.middle-content .boxes .five {
-    background-color: #dc143c;
-}
-
-.middle-content .boxes .six {
-    background-color: #228b22;
-}
-
-.middle-content .boxes .seven {
-    background-color: #9932cc;
-}
-
-.middle-content .boxes .eight {
-    background-color: #ff69b4;
-}
-
-.middle-content .boxes .nine {
-    background-color: #4b0082;
-}
-
-.middle-content .boxes .ten {
-    background-color: #1e90ff;
-}
-
-
-/* Bottom Content Styles */
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-    width: 25%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-/* Bottom Section Style */
-.about-page, .bottom {
+.bottom div {
     width: 50%;
 }
+
+
+
 
 
 /* Footer Section Styles */
